@@ -1,0 +1,152 @@
+body {
+    background-color: #5751b0;
+    padding: 8rem 8rem 15rem 15rem;
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+    body {
+        padding: 0;
+    }
+
+    .project-image {
+        width: 400px !important;
+        height: 490px !important;
+        border-radius: 36px !important;
+        margin-right: 2rem !important;
+    }
+
+    .background {
+        background-color: #7771D7;
+        border-radius: 36px;
+        width: 100% !important;
+        margin-bottom: 16px;
+    }
+}
+
+
+.top-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.space {
+    margin-bottom: 16px;
+    ;
+}
+
+.rectangle {
+    height: 8px;
+    width: 41px;
+    background-color: #FC6C56;
+    margin-right: 1rem;
+}
+
+.project-text {
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: #FFF;
+}
+
+.our-text {
+    font-family: 'IBM Plex Mono';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-align: left;
+    color: #FFF;
+}
+
+.remaining {
+    font-family: IBM Plex Mono;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-align: left;
+    color: #FC6C56;
+}
+
+.background {
+    background-color: #7771D7;
+    border-radius: 36px;
+    width: 105%;
+    margin-bottom: 16px;
+}
+
+.card {
+    display: flex;
+    padding: 16px;
+}
+
+.project-image {
+    width: 610px;
+    height: 516px;
+    border-radius: 36px;
+    margin-right: 2rem;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.work-btn {
+    background-color: #FC6C56;
+    border-radius: 21px;
+    color: #000000;
+    width: 147px;
+    height: 39px;
+
+}
+
+.inner-card {
+    padding: 16px;
+}
+
+.app-heading {
+    font-family: 'IBM Plex Mono';
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45.5px;
+    text-align: left;
+    color: #FFF;
+}
+
+.app-detail {
+    margin-top: 16px;
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #FFF;
+    width: 483px;
+    height: 200px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.display-btn {
+    width: 144px;
+    height: 55px;
+    background-color: #FC6C56;
+    color: #FFF;
+    border-radius: 36px;
+}
